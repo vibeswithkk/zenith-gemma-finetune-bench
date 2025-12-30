@@ -198,9 +198,51 @@ Open any notebook directly in Google Colab:
 
 ---
 
+## Community Sandbox Lab
+
+**This repository is your safe space to experiment with Zenith.**
+
+We understand that adopting a new compiler in production can be risky. That's why we've opened this repo as a **public testing ground**. Use it to:
+
+- Test Zenith on your own models before committing to it
+- Benchmark against your specific workloads
+- Explore edge cases and limitations
+- Learn how Zenith works under the hood
+
+### How to Contribute Your Experiments
+
+If your experiment produces **measurable, reproducible results**, we encourage you to share it with the community. Your contribution becomes learning material for others who are also evaluating Zenith.
+
+**Contribution Guidelines:**
+
+1. **Fork this repository**
+2. **Create your experiment** in a new notebook (e.g., `experiments/your_model_benchmark.ipynb`)
+3. **Document your methodology** clearly (model, dataset, hardware, metrics)
+4. **Include raw output logs** as evidence
+5. **Submit a Pull Request** with a summary of your findings
+
+**What We Accept:**
+- Successful benchmarks (speedup, energy savings, etc.)
+- Edge case discoveries (what works, what doesn't)
+- Comparisons with other frameworks (TensorRT, ONNX Runtime, etc.)
+
+**What We Expect:**
+- Honesty in reporting (both wins and losses)
+- Reproducible experiments (others should be able to verify)
+- No promotional content or spam
+
+Your contribution helps the entire community make informed decisions. Think of it as **"sedekah ilmu"** - sharing knowledge for the benefit of others.
+
+---
+
 ## Contributing
 
-Contributions are welcome. Please open an issue first to discuss what you would like to change.
+For bug fixes, documentation improvements, or new test cases, please:
+
+1. Open an issue first to discuss your proposal
+2. Fork the repository
+3. Create a feature branch
+4. Submit a Pull Request
 
 ---
 
